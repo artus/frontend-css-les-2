@@ -1,0 +1,22 @@
+main {
+  font-family: sans-serif;
+  color: rgb(44, 44, 44);
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 1.5em;
+  background: linear-gradient(to bottom right, blue, purple);
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+article {
+  padding: 1.2em;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 5px 5px 17px 0px rgba(0, 0, 0, 0.51);
+}
+
+article:first-of-type {
+  flex-grow: 2;
+}

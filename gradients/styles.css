@@ -1,0 +1,32 @@
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+main article {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+main article h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+main article section {
+  width: 200px;
+  height: 200px;
+}
+
+main article:first-of-type section {
+  background: linear-gradient(to bottom right, yellow, red);
+}
+
+main article:nth-of-type(2) section {
+  background: radial-gradient(yellow, red);
+}
+
+main article:last-of-type section {
+  background: conic-gradient(yellow, red);
+}
